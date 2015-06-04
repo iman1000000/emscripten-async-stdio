@@ -1,0 +1,9 @@
+{
+  "name": "emscripten-async-stdio",
+  "version": "0.0.1",
+  "description": "Asynchronous replacement for stdio input functions for Emscripten and Terminal.js",
+  "dependencies": {
+    "terminal.js": "^1.0.5"
+  },
+  "license": "MIT"
+}
