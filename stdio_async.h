@@ -1,3 +1,6 @@
+#ifndef STDIO_ASYNC_HEADER
+#define STDIO_ASYNC_HEADER
+
 #include <stdio.h>
 
 #ifdef __EMSCRIPTEN__
@@ -10,5 +13,7 @@ char *fgets_async(char *s, int size, FILE *stream);
 #define getchar getchar_async
 #define fgetc fgetc_async
 #define fgets fgets_async
+
+#endif
 
 #endif
