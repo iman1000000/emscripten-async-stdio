@@ -5,7 +5,7 @@
   "dependencies": {
     "terminal.js": "^1.0.5"
   },
-  "license": "MIT",
+  "license": "BSD-2-Clause",
   "repository" : {
       "type" : "git",
       "url" : "https://github.com/iman1000000/emscripten-async-stdio.git"
